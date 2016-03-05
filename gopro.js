@@ -15,7 +15,7 @@ var getFile = function(callback){
   });
 };
 
-cam.mode(GoPro.Settings.Modes.Burst, GoPro.Settings.Submodes.Burst.Night)
+cam.mode(GoPro.Settings.Modes.Burst, GoPro.Settings.Submodes.Burst.Burst)
    .then(function(){
      return cam.set(GoPro.Settings.VIDEO_FPS, GoPro.Settings.VideoFPS.F60);
    })
